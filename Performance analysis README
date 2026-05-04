@@ -1,0 +1,42 @@
+Methodology: 
+First Import the data in Power BI
+•	Time-based columns (Test Date) Convert to proper format. 
+•	Remove “s” & “ms” and make Numeric  Metrics (LCP, TTI, Speed Index) 
+Three Level Analysis:
+Descriptive Analysis
+•	Calculate average Performance, LCP, TTI, CLS
+•	Overall website health KPIs
+Comparative Analysis
+•	Compare Desktop vs Mobile performance compare
+•	Analyze Different URLs metrics 
+Trend & Relationship Analysis
+•	Time & performance trend
+•	LCP & Performance relationship analyze (scatter plot) 
+Key Findings (Important Insights):
+1. Mobile Performance Weak
+•	LCP (6s–19s) & TTI (16s+) is high 
+•	Performance score is also consistently low than Desktop 
+Its mean: mobile users face slow experience
+2. Desktop Performance Stable
+•	Desktop pe performance mostly 70–98 range me hai 
+•	LCP & TTI in acceptable range 
+•	Website on desktop is optimized 
+3. High LCP = Low Performance
+•	Scatter analysis Clear that:
+as much LCP is Performance is lower 
+4. Some URLs consistently slow
+•	Some pages perform slow in repeated test.
+5. CLS mostly controlled hai (but spikes hain)
+•	Majority CLS values low hain (good UX 👍) 
+•	Lekin kuch cases me high CLS (~0.7) mila → layout shift issue 
+6. High Total Blocking Time (TBT)
+•	Especially mobile TBT high (300–500ms+) 
+Recommendations (Action Plan)
+1. Make Mobile Optimization Priority
+2. Images Optimization
+3. Improve Loading Speed
+4. Fix Slow URLs
+5. CLS Fix (UI Stability)
+Conclusion
+Analysis shows that while desktop performance is stable, mobile performance is significantly lagging due to high LCP and TTI. The primary bottlenecks are not optimized images, heavy JavaScript, and slow-loading page elements. Addressing these issues especially on mobile can substantially improve overall user experience and performance scores.
+
